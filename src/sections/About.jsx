@@ -7,13 +7,20 @@ const About = () => {
   const [hasCopied, setHasCopied] = useState(false);
 
   const handleCopy = () => {
-    navigator.clipboard.writeText(' adrian@jsmastery.pro');
+    navigator.clipboard.writeText(' Ahmarsiddiqi7@gmail.com');
     setHasCopied(true);
 
     setTimeout(() => {
       setHasCopied(false);
     }, 2000);
   };
+
+
+  const handleClick = () => {
+    // Replace '/your-link' with the actual path where you want to redirect
+    navigate('https://www.linkedin.com/in/ahmarsiddiqi');
+  };
+
 
   return (
     <section className="c-space my-20" id="about">
@@ -25,9 +32,9 @@ const About = () => {
             <div>
               <p className="grid-headtext">Hi, I’m Ahmar Siddiqi</p>
               <p className="grid-subtext">
-                With 8 years of experience, I have honed my skills in both frontend and backend dev, creating dynamic
-                and responsive websites.With 8 years of experience, I have honed my skills in both frontend and backend dev, creating dynamic
-                and responsive websites.
+              With 8 years of full-stack development experience, I specialize in building dynamic, responsive websites. 
+              On the frontend, I develop user-friendly interfaces using modern frameworks, while on the backend,
+               I implement scalable, high-performance systems with clean APIs. I bridge design and functionality to deliver optimized, efficient, and visually compelling products.
               </p>
             </div>
           </div>
@@ -64,8 +71,8 @@ const About = () => {
             </div>
             <div>
               <p className="grid-headtext">I’m very flexible with time zone communications & locations</p>
-              <p className="grid-subtext">I&apos;m based in Rjieka, Croatia and open to remote work worldwide.</p>
-              <Button name="Contact Me" isBeam containerClass="w-full mt-10" />
+              <p className="grid-subtext">I&apos;m based in San Diego, California and open to remote work worldwide.</p>
+              <Button name="Contact Me" isBeam containerClass="w-full mt-10" onClick={handleClick} />
             </div>
           </div>
         </div>
