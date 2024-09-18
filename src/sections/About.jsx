@@ -47,8 +47,7 @@ const About = () => {
             <div>
               <p className="grid-headtext">Tech Stack</p>
               <p className="grid-subtext">
-                I specialize in a variety of languages, frameworks, and tools that allow me to build robust and scalable
-                applications
+              I specialize in frontend technologies like React.js, Vue.js, and Angular, as well as backend systems using Node.js, Rust, and Express.js. I leverage cloud platforms (AWS, GCP) and databases like MongoDB and PostgreSQL to build robust, scalable applications. My expertise spans the full stack, ensuring seamless integration, high performance, and responsive design.
               </p>
             </div>
           </div>
@@ -103,7 +102,7 @@ const About = () => {
               <p className="grid-subtext text-center">Contact me</p>
               <div className="copy-container" onClick={handleCopy}>
                 <img src={hasCopied ? 'assets/tick.svg' : 'assets/copy.svg'} alt="copy" />
-                <p className="lg:text-2xl md:text-xl font-medium text-gray_gradient text-white">adrian@jsmastery.pro</p>
+                <p className="lg:text-2xl md:text-xl font-medium text-gray_gradient text-white">ahmarsiddi7@gmail.com</p>
               </div>
             </div>
           </div>
