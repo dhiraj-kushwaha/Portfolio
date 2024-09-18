@@ -7,7 +7,7 @@ const Footer = () => {
         <p>Privacy Policy</p>
       </div>
 
-      <div className="flex gap-3">
+      {/* <div className="flex gap-3">
         <div className="social-icon">
           <img src="#" alt="github" className="w-1/2 h-1/2" />
         </div>
@@ -17,7 +17,7 @@ const Footer = () => {
         <div className="social-icon">
           <img src="#" alt="instagram" className="w-1/2 h-1/2" />
         </div>
-      </div>
+      </div> */}
 
       <p className="text-white-500">© 2024 Ahmar Siddiqi. All rights reserved.</p>
     </footer>
